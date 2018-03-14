@@ -1,0 +1,29 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-image: #00fdff url("b.jpg");
+	position: relative;
+	height: 100%;
+	background-repeat: repeat-x;
+	background-size: cover;
+	background-position:0 0;
+	animation: animate 15s linear infinite;
+
+
+}
+.car
+{   
+	position: absolute;
+	bottom: 100px;
+	left: 30px;
+}
+@keyframes animate
+{
+	font-variant-numeric: {
+		background-position: 0 0;
+	}
+	to {
+            background-position: 100% 0;
+	}
+}
